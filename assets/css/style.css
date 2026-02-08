@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Sonsie+One&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-soncie: "Sonsie One", sans-serif;
+  --font-marugothic: "Zen Maru Gothic", serif;
+
+  --color-basecolor: #ededed;
+  --color-primary: #0a484f;
+  --color-greenyellow1: #f2ffae;
+  --color-greenyellow2: #ecff6f;
+  --color-green: #c8fc59;
+}
+
+@layer components {
+  .w-stretch {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: stretch;
+  }
+
+  .min-w-stretch {
+    min-width: -webkit-fill-available;
+    min-width: -moz-available;
+    min-width: stretch;
+  }
+
+  .max-w-stretch {
+    max-width: -webkit-fill-available;
+    max-width: -moz-available;
+    max-width: stretch;
+  }
+
+  .h-stretch {
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: stretch;
+  }
+
+  .min-h-stretch {
+    min-height: -webkit-fill-available;
+    min-height: -moz-available;
+    min-height: stretch;
+  }
+
+  .max-h-stretch {
+    max-height: -webkit-fill-available;
+    max-height: -moz-available;
+    max-height: stretch;
+  }
+}

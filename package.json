@@ -1,0 +1,26 @@
+{
+  "name": "self-introduction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "postcss assets/css/style.css -o dist/style.css",
+    "watch": "postcss assets/css/style.css -o dist/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.10"
+  },
+  "devDependencies": {
+    "@awmottaz/prettier-plugin-void-html": "^1.9.0",
+    "prettier": "^3.6.1",
+    "prettier-plugin-tailwindcss": "^0.6.13",
+    "tailwindcss-border-image": "^1.1.2"
+  }
+}
